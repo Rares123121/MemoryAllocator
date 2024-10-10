@@ -1,3 +1,5 @@
+This program implements a memory allocator using Segregated Free Lists.
+
 I use the "init" function to initialize the free memory zones, which are
 represented as a array of doubly linked lists.
 
