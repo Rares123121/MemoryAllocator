@@ -1,0 +1,15 @@
+==14459== Memcheck, a memory error detector
+==14459== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14459== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==14459== Command: /mnt/c/Users/Rares/Desktop/PCLP1/Lab1/TEMA_SD/sfl
+==14459== Parent PID: 14458
+==14459== 
+==14459== 
+==14459== HEAP SUMMARY:
+==14459==     in use at exit: 0 bytes in 0 blocks
+==14459==   total heap usage: 34,772 allocs, 34,772 frees, 4,887,428 bytes allocated
+==14459== 
+==14459== All heap blocks were freed -- no leaks are possible
+==14459== 
+==14459== For lists of detected and suppressed errors, rerun with: -s
+==14459== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,26 @@
+I use the "init" function to initialize the free memory zones, which are
+represented as a array of doubly linked lists.
+
+In the "my_malloc" function, I check if there is already a block with the
+desired size, and if it exists, I add it to the occupied memory zone, removing
+it from the Free List. If no memory zone of the desired size exists, I perform
+fragmentation, which involves allocating memory with the given size, and the
+rest is reinserted into the Free List as a new memory zone, considering the
+memory address.
+
+In the "release" function, I reinsert a block into the Free List from a specific
+memory address that was previously allocated. If the memory block does not
+exist, a corresponding message is displayed.
+
+The "write" function writes specific text into one or more memory zones that
+have been previously allocated. The "read" function reads a certain number of
+characters from the written text starting from a specific memory address.
+
+The "dump_memory" function displays the number of used bytes, how much memory
+has been allocated, how much memory is free, as well as the memory addresses of
+the allocated blocks or those still free.
+
+The "dump_heap" function destroys the entire Free List.
+
+If certain operations cannot be performed, "dump_memory" and "dump_heap" are
+automatically executed.
